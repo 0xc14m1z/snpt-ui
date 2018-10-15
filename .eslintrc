@@ -21,6 +21,15 @@
     "react/jsx-boolean-value": 0,
 
     // don't enforce semicolon at the end of a statement
-    "semi": ["error", "never"]
+    "semi": ["error", "never"],
+
+    "react/jsx-curly-spacing": [
+      2, {
+        "when": "always",
+        "allowMultiline": true,
+        "children": true,
+        "attributes": true
+      }
+    ]
   }
 }
