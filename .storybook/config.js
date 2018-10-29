@@ -1,6 +1,8 @@
 import React from 'react'
 import { configure, addDecorator } from '@storybook/react'
+import StoryRouter from 'storybook-react-router'
 
+addDecorator(StoryRouter())
 addDecorator(story => (
   <div style={{ padding: "50px", background: "#EBEBEB" }}>
     { story() }
