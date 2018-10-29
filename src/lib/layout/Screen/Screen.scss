@@ -1,0 +1,14 @@
+@import "styles/variables.scss";
+
+.screen {
+  margin: auto;
+
+  box-sizing: border-box;
+  padding: 0px $rg-gutter;
+  @media #{$lg-screen} {
+    padding: 0px $lg-gutter;
+  }
+
+  width: 100%;
+  max-width: $screen-max-width;
+}

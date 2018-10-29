@@ -1,8 +1,13 @@
-import { configure } from '@storybook/react'
+import React from 'react'
+import { configure, addDecorator } from '@storybook/react'
 
-const requirer = require.context('../src', true, /\.stories\.js$/)
+addDecorator(story => (
+  <div style={{ padding: "50px", background: "#EBEBEB" }}>
+    { story() }
+  </div>
+))
 
-const loadStories = () =>
-  requirer.keys().forEach(story => requirer(story))
+const req = require.context('../src/lib', true, /\.stories\.js$/)
+const loadStories = () => req.keys().forEach(filename => req(filename))
 
 configure(loadStories, module)

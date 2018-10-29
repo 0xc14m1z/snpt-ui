@@ -1,0 +1,23 @@
+p {
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+  font-family: "Martel";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px; }
+  p.italic {
+    font-family: "Playfair Display";
+    font-style: italic; }
+  p i, p em {
+    font-style: italic; }
+  p strong, p b {
+    font-weight: 700; }
+  p a {
+    display: inline-block;
+    color: #C4143B;
+    text-decoration: none; }
+    p a:hover {
+      color: #E9234E;
+      text-decoration: underline; }
+    p a i {
+      margin-right: 5px; }

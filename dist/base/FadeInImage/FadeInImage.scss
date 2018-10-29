@@ -1,0 +1,38 @@
+@import "styles/variables.scss";
+
+.fade-in-image {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+
+  img {
+    position: absolute;
+    top: -5%;
+    right: -5%;
+    bottom: -5%;
+    left: -5%;
+    width: 110%;
+    height: 110%;
+    object-fit: cover;
+  }
+
+  .preview {
+    transition-property: opacity;
+    opacity: 1;
+    z-index: 1;
+    &.hidden {
+      opacity: 0;
+    }
+  }
+
+  .full-size {
+    z-index: 0;
+  }
+}

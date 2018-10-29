@@ -1,0 +1,40 @@
+@import "styles/variables.scss";
+
+p {
+  margin: 0px 0px $sm-gutter 0px;
+  padding: 0px;
+
+  font-family: $body-font;
+  font-weight: $font-normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  &.italic {
+    font-family: $title-font;
+    font-style: italic;
+  }
+
+  i, em {
+    font-style: italic;
+  }
+
+  strong, b {
+    font-weight: $font-bold;
+  }
+
+  a {
+    display: inline-block;
+    color: $red;
+    text-decoration: none;
+
+    &:hover {
+      color: $red-accent;
+      text-decoration: underline;
+    }
+
+    i {
+      margin-right: $xs-gutter;
+    }
+  }
+
+}

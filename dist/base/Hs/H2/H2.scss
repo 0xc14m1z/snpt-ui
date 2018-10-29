@@ -1,0 +1,11 @@
+@import "styles/variables.scss";
+
+h2 {
+  margin: 0px;
+  padding: 0px;
+
+  font-family: $title-font;
+  font-weight: $font-normal;
+  font-size: 32px;
+  line-height: 41px;
+}

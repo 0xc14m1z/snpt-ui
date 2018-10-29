@@ -1,0 +1,38 @@
+$white: #FFFFFF;
+$light-grey: #EEEEEE;
+$mid-grey: #DDDDDD;
+$grey: #555555;
+$black: #000000;
+$red: #C4143B;
+$red-accent: #E9234E;
+$dark-red: #960F2D;
+
+$lg-gutter: 50px;
+$rg-gutter: 30px;
+$md-gutter: 20px;
+$sm-gutter: 10px;
+$xs-gutter:  5px;
+
+$title-font: "Playfair Display";
+$body-font: "Martel";
+$label-font: "Montserrat";
+
+$font-normal: 400;
+$font-bold: 700;
+
+$lg-screen: "screen and (min-width: 1441px)";
+$rg-screen: "screen and (min-width: 1025px) and (max-width: 1440px)";
+$md-screen: "screen and (min-width: 769px) and (max-width: 1024px)";
+$sm-screen: "screen and (min-width: 641px) and (max-width: 768px)";
+$xs-screen: "screen and (max-width: 640px)";
+
+$screen-max-width: 1600px;
+
+$radius: 5px;
+
+$transition-duration: 350ms;
+$ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
+$ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+$transition-easing: $ease-out-expo;
+
+$menu-item-size: 80px;
