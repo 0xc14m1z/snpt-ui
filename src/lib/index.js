@@ -25,6 +25,8 @@ export { H4 } from './base/Hs/H4'
 
 // LAYOUT
 
+export { Logo } from './layout/Logo'
+export { Page } from './layout/Page'
 export { Screen } from './layout/Screen'
 export { Swiper } from './layout/Swiper'
 

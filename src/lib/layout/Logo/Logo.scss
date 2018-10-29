@@ -1,0 +1,24 @@
+@import "styles/variables.scss";
+
+.logo {
+  display: inline-block;
+
+  width: 117px;
+  height: 117px;
+  background: url('./assets/logo@2x.png');
+  background-size: 100%;
+
+  &.full {
+    width: 117px;
+    height: 197px;
+    background: url('./assets/full-logo@2x.png');
+    background-size: 100%;
+  }
+
+  &.mobile {
+    width: 151px;
+    height: 67px;
+    background: url('./assets/logo-mobile@2x.png');
+    background-size: 100%;
+  }
+}
