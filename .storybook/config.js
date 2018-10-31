@@ -1,8 +1,10 @@
 import React from 'react'
 import { configure, addDecorator } from '@storybook/react'
 import StoryRouter from 'storybook-react-router'
+import { withKnobs } from '@storybook/addon-knobs'
 
 addDecorator(StoryRouter())
+addDecorator(withKnobs)
 addDecorator(story => (
   <div style={{ padding: "50px", background: "#EBEBEB" }}>
     { story() }
